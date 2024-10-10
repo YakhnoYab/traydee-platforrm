@@ -1,5 +1,11 @@
+import { Header } from "@/components/widgets/Header/Header";
 import Image from "next/image";
 
 export default function Home() {
-  return <main className="flex min-h-screen flex-col items-center justify-between p-24">Main Page</main>;
+  return (
+    <>
+      <Header />
+      <main className="min-h-screen lg:px-4 md:px-3 sm:px-2"></main>
+    </>
+  );
 }
