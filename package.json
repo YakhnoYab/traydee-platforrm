@@ -10,11 +10,15 @@
   },
   "dependencies": {
     "@uidotdev/usehooks": "^2.4.1",
+    "axios": "^1.8.3",
     "classnames": "^2.5.1",
-    "hugeicons-react": "^0.3.0",
+    "lightweight-charts": "^5.0.3",
+    "lucide-react": "^0.483.0",
     "next": "14.2.6",
+    "next-auth": "^4.24.11",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "zustand": "^5.0.3"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -23,6 +27,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.6",
     "postcss": "^8",
+    "prettier": "3.5.2",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
